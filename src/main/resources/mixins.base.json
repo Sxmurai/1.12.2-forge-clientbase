@@ -1,0 +1,16 @@
+{
+    "required": true,
+    "priority": 2147483647,
+    "mixinPriority": 2147483647,
+    "minVersion": "0.7-SNAPSHOT",
+    "compatibilityLevel": "JAVA_8",
+    "package": "cope.name.asm.mixins",
+    "refmap": "mixins.base.refmap.json",
+    "verbose": true,
+    "mixins": [
+        "MixinMinecraft"
+    ],
+    "injectors": {
+        "maxShiftBy": 10
+    }
+}
